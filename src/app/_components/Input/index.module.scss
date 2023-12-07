@@ -7,7 +7,7 @@
 .input {
   width: 100%;
   font-family: system-ui;
-  border-radius: 0;
+  border-radius: 5px;
   box-shadow: none;
   border: none;
   background: none;
@@ -51,6 +51,7 @@
   display: block;
   line-height: 1;
   margin-bottom: calc(var(--base) / 2);
+  font-size: small;
 }
 
 .errorMessage {
