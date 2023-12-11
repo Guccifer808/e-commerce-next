@@ -1436,16 +1436,17 @@
   resolved "https://registry.npmjs.org/@payloadcms/eslint-config/-/eslint-config-0.0.1.tgz"
   integrity sha512-Il59+0C4E/bI6uM2hont3I+oABWkJZbfbItubje5SGMrXkymUq8jT/UZRk0eCt918bB7gihxDXx8guFnR/aNIw==
 
-"@payloadcms/plugin-cloud@^2.0.0":
-  version "2.2.5"
-  resolved "https://registry.npmjs.org/@payloadcms/plugin-cloud/-/plugin-cloud-2.2.5.tgz"
-  integrity sha512-5DzSZ/FGGIr48Mt81sTYnJWYaPYG8mECfDLGHhofhgAmYMmJ1BT1xbIAJ0MB6sq/QHPIvRj3vd2lyw68Al8DjA==
+"@payloadcms/plugin-cloud@^2.2.6":
+  version "2.2.6"
+  resolved "https://registry.npmjs.org/@payloadcms/plugin-cloud/-/plugin-cloud-2.2.6.tgz"
+  integrity sha512-PEx0mcgRarI8Q/Q9tWLZaEiaruAirBhXhBHK9uBIBoiiKLBcBDLfwEJF2Thkl37OMuZ7p52GStpLaoe/dinxJA==
   dependencies:
     "@aws-sdk/client-cognito-identity" "^3.289.0"
     "@aws-sdk/client-s3" "^3.142.0"
     "@aws-sdk/credential-providers" "^3.289.0"
     "@aws-sdk/lib-storage" "^3.267.0"
     amazon-cognito-identity-js "^6.1.2"
+    nodemailer "^6.9.1"
     resend "^0.17.2"
 
 "@payloadcms/plugin-nested-docs@^1.0.8":
@@ -6164,7 +6165,7 @@ node-releases@^2.0.13:
   resolved "https://registry.npmjs.org/node-releases/-/node-releases-2.0.13.tgz"
   integrity sha512-uYr7J37ae/ORWdZeQ1xxMJe3NtdmqMC/JZK+geofDrkLUApKRHPd18/TxtBOJ4A0/+uUIliorNrfYV6s1b02eQ==
 
-nodemailer@6.9.4:
+nodemailer@^6.9.1, nodemailer@6.9.4:
   version "6.9.4"
   resolved "https://registry.npmjs.org/nodemailer/-/nodemailer-6.9.4.tgz"
   integrity sha512-CXjQvrQZV4+6X5wP6ZIgdehJamI63MFoYFGGPtHudWym9qaEHDNdPzaj5bfMCvxG1vhAileSWW90q7nL0N36mA==

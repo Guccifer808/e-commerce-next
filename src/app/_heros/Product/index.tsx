@@ -1,13 +1,10 @@
 import React, { Fragment } from 'react'
-import Link from 'next/link'
 
 import { Product } from '../../../payload/payload-types'
 import { AddToCartButton } from '../../_components/AddToCartButton'
 import { Gutter } from '../../_components/Gutter'
 import { Media } from '../../_components/Media'
-import { Message } from '../../_components/Message'
 import { Price } from '../../_components/Price'
-import RichText from '../../_components/RichText'
 
 import classes from './index.module.scss'
 

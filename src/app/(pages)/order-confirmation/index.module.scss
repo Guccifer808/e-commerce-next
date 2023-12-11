@@ -1,5 +1,15 @@
 @import '../../_css/common';
 
 .confirmationPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;  
+  padding-top: 50px;
   margin-bottom: var(--block-padding);
+
+  p {
+    margin-top: 30px;
+  }
 }
