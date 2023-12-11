@@ -16,6 +16,11 @@ import { Button } from '../../Button'
 const FooterComponent = ({ footer }: { footer: Footer }) => {
   const pathname = usePathname()
   const navItems = footer?.navItems || []
+  const footerCopyright = footer?.copyright || ''
+
+  if (!footer) {
+    return null
+  }
 
   return (
     <footer className={noHeaderFooterUrls.includes(pathname) ? classes.hide : ''}>
@@ -69,7 +74,7 @@ const FooterComponent = ({ footer }: { footer: Footer }) => {
           </div>
         </Gutter>
         <div className={classes.copyrightWrap}>
-          <p className={classes.copyright}>{footer.copyright}</p>
+          <p className={classes.copyright}>{footerCopyright}</p>
         </div>
       </div>
     </footer>

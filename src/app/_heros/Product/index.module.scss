@@ -57,3 +57,10 @@
 .description {
   padding: 30px 0;
 }
+
+.descriptionWrapper {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: end;
+}

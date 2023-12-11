@@ -55,11 +55,13 @@ export const ProductHero: React.FC<{
         </div>
 
         <Price product={product} button={false} />
-        <div className={classes.description}>
-          <h6>Description</h6>
-          <p>{description}</p>
+        <div className={classes.descriptionWrapper}>
+          <div className={classes.description}>
+            <h6>Description</h6>
+            <p>{description}</p>
+          </div>
+          <AddToCartButton product={product} className={classes.addToCartButton} />
         </div>
-        <AddToCartButton product={product} className={classes.addToCartButton} />
       </div>
     </Gutter>
   )
