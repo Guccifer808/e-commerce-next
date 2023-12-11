@@ -43,7 +43,7 @@ const FooterComponent = ({ footer }: { footer: Footer }) => {
             <Link href="/">
               <Image src="/logo-white.svg" alt="logo" width={180} height={40} />
             </Link>
-            <p>{footer.copyright}</p>
+
             <div className={classes.socialLinks}>
               {navItems.map(item => {
                 const icon = item?.link?.icon as Media
@@ -68,6 +68,9 @@ const FooterComponent = ({ footer }: { footer: Footer }) => {
             </div>
           </div>
         </Gutter>
+        <div className={classes.copyrightWrap}>
+          <p className={classes.copyright}>{footer.copyright}</p>
+        </div>
       </div>
     </footer>
   )

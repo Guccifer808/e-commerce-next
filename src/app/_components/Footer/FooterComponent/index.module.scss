@@ -70,6 +70,7 @@
 .socialLinks {
   display: flex;
   gap: 20px;
+  margin: 20px 0;
 }
 
 .socialLinkItem {
@@ -83,4 +84,15 @@
 
 .hide {
   display: none;
+}
+
+.copyrightWrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100%;
+  margin-top: 20px;
+}
+.copyright {
+  flex: 1;
 }
