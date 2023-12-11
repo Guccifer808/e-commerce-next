@@ -1,14 +1,15 @@
 'use client'
 
 import React, { useState } from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
+
+import { Product } from '../../../../payload/payload-types'
+import { Media } from '../../../_components/Media'
+import { Price } from '../../../_components/Price'
+import { RemoveFromCartButton } from '../../../_components/RemoveFromCartButton'
 
 import classes from './index.module.scss'
-import Link from 'next/link'
-import { Media } from '../../../_components/Media'
-import { Product } from '../../../../payload/payload-types'
-import { Price } from '../../../_components/Price'
-import Image from 'next/image'
-import { RemoveFromCartButton } from '../../../_components/RemoveFromCartButton'
 
 type Props = {
   qty: number

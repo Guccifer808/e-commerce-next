@@ -2,12 +2,13 @@
 
 import React from 'react'
 
-import classes from './index.module.scss'
-import { useFilter } from '../../../_providers/Filter'
 import { Category } from '../../../../payload/payload-types'
 import CustomCheckbox from '../../../_components/CustomCheckbox'
-import { HR } from '../../../_components/HR'
 import CustomRadioButton from '../../../_components/CustomRadioButton'
+import { HR } from '../../../_components/HR'
+import { useFilter } from '../../../_providers/Filter'
+
+import classes from './index.module.scss'
 
 const Filters = ({ categories }: { categories: Category[] }) => {
   const { categoryFilters, sort, setCategoryFilters, setSort } = useFilter()
